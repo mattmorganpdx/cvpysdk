@@ -481,10 +481,10 @@ class Instances(object):
                             'onconfig_file': 'onconfig.ol_informix1210',
                             'sql_host_file': 'C:\\IBM\\etc\\sqlhosts.ol_informix1210',
                             'informix_dir': 'C:\\IBM',
-                            'user_name':'informix',
-                            'domain_name':'test_vm',
-                            'password':'commvault!12',
-                            'storage_policy':'gk_pg_policy',
+                            'user_name':'',
+                            'domain_name':'',
+                            'password':'',
+                            'storage_policy':'',
                             'description':'created from automation'
                         }
 
