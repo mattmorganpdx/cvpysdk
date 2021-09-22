@@ -663,19 +663,19 @@ class Instances(object):
                 Dictionary of sybase instance creation options:
                     Example:
                        sybase_options = {
-                            'instance_name': 'SAISYB',
-                            'sybase_ocs': 'OCS-16_0',
-                            'sybase_ase': 'ASE-16_0',
-                            'backup_server': 'SAISYB_BS',
-                            'sybase_home':'C:\\SAP',
-                            'config_file':'C:\\SAP\\SAISYB.cfg',
+                            'instance_name': '',
+                            'sybase_ocs': '',
+                            'sybase_ase': '',
+                            'backup_server': '',
+                            'sybase_home':'',
+                            'config_file':'',
                             'enable_auto_discovery':True,
-                            'shared_memory_directory':'C:\\SAP\\ASE-16_0',
-                            'storage_policy':'sai-sp',
-                            'sa_username':'sa',
-                            'sa_password':'commvault!12',
-                            'localadmin_username':'saisyb\\administrator',
-                            'localadmin_password':'commvault!12'
+                            'shared_memory_directory':'',
+                            'storage_policy':'',
+                            'sa_username':'',
+                            'sa_password':'',
+                            'localadmin_username':'',
+                            'localadmin_password':''
                         }
             Raises:
                 SDKException:
